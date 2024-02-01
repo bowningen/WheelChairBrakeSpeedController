@@ -45,7 +45,7 @@ Arduino2台とシリアル通信を行い、片方に接続しておいたホー
   <p align="left">
     <br />
     <!-- プロジェクト詳細にBacklogのWikiのリンク -->
-    <a href="https://www.e-net.nara.jp/hs/nara/"><strong>プロジェクト詳細 »</strong></a>
+    <a href="https://www.e-net.nara.jp/hs/nara/"><strong>詳細がないので高校のホームページ »</strong></a>
     <br />
     <br />
     
