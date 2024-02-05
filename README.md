@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# WheelChairBreakeSpeedController
+# WheelChairBreakSpeedController
 
 
 ## 目次
@@ -100,7 +100,7 @@ config.iniを開き、arduino1、arduino2をお使いのArduinoそれぞれ(1は
 (ls /dev/tty*)の実行でポート検索がかけられます。(この時、permission deniedとか言われる場合は、ユーザー等に対して権限の付与を行ってください。)
 
 config.iniの他の値も
-<p align="right">(<a href="##設定項目の一覧">設定項目の一覧</a>)</p>
+<p align="right">(<a href="##set">設定項目の一覧</a>)</p>
 を参考にお使いの環境に合わせて設定を行ってください。
 
 その後、final_final.pyのあるディレクトリに移動し、py final_final.py(環境によっては python3 final_final.py かもしれませんが)等で実行してください。
@@ -109,6 +109,7 @@ config.iniの他の値も
 ※実行時にエラーが出る場合が多いですが、シリアル通信関連で例外が発生していることがほとんどなので、何度かCtrl+Zで強制終了して再実行を繰り返していると動作するはずです（v1.1.0で修正予定）
 
 
+<div id="##set"></div>
 ## 設定項目の一覧
 
 ### ・config.ini
