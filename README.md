@@ -1,4 +1,4 @@
-<div id="top"></div>
+く<div id="top"></div>
 
 # WheelChairBrakeSpeedController
 
@@ -50,15 +50,19 @@ Arduino2台とシリアル通信を行い、片方に接続しておいたホー
     <a href="https://www.e-net.nara.jp/hs/nara/index.cfm/1,3355,78,194,html">公開時の発表会はこちら<strong> »</strong></a>
     <br />
     <br />
-    (論文のほうがよかったですが)
+###### (論文のほうがよかったですが)
     
 
 ## 詳細
 
 
-お使いの環境にpyserialをインストールして、config.iniのarduino1,arduino2をお使いのArduinoそれぞれ(1はホール素子側、2はモーター側)のシリアルポート番号に設定します(ls /dev/tty*)
+お使いの環境(PCあるいはRaspberry Pi)にpyserialをインストールして、config.iniのarduino1,arduino2をお使いのArduinoそれぞれ(1はホール素子側、2はモーター側)のシリアルポート番号に設定します(ls /dev/tty*)
+
+プログラムもそれぞれに入れておきます
 
 その後実行したら何とかなるはずです
+
+※v2.0.0でArduino単体で動くものの公開予定
 
 ※v1.0.1辺りで追記予定
 
@@ -204,6 +208,8 @@ Arduinoを抜き差ししつつ" ls /dev/tty* "を実行して特定を行った
 ・v1.1.0 : 実行時などのいくつかのバグを修正予定。
 
 ・v1.2.0 : 実行環境にRaspberry Piを使用した場合に、Raspberry Pi側からのモーターの動作に対応予定。
+
+・v2.0.0 : Arduino一台のみでの実行が可能なものを公開予定
 
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
