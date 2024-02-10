@@ -50,6 +50,7 @@ Arduino2台とシリアル通信を行い、片方に接続しておいたホー
     <a href="https://www.e-net.nara.jp/hs/nara/index.cfm/1,3355,78,194,html">公開時の発表会はこちら<strong> »</strong></a>
     <br />
     <br />
+
 ###### (論文のほうがよかったですが)
     
 
